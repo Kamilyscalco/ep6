@@ -1,45 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body onload="inclui_nome()">
-   
+
     <script src="script.js"></script>
 
     <p id="marcacao_nome"></p>
 
     <form>
-        <h3> 1- Uma prestadora de serviços cobra pela visita à residência do cliente e pelo tempo necessário para realizar o serviço na residência.O valor da visita é R$ 40 e o valor da hora para realização do serviço é R$ 20.Uma expressão que indica o valor a ser pago (P) em função das horas (h) necessárias à execução do serviço é:</h3>
-        <input type="radio" name="quest_1" value="errada">a)P = 40h. <br>
-        <input type="radio" name="quest_1" value="errada">b)P = 60h. <br>
-        <input type="radio" name="quest_1" value="errada">c)P = 20 + 40h. <br>
-        <input type="radio" name="quest_1" value="correta">d)P = 40 + 20h. <br>
+        <h3>Questão 1 - Uma praça será construída no formato de um círculo de diâmetro medindo 12 metros. Para preservação da área verde da cidade, a prefeitura determinou que 60% dessa praça deve ser composta por área verde. Utilizando π= 3,1, podemos afirmar que a área verde da praça mede, em metros quadrados, aproximadamente:</h3>
+        <input type="radio" name="quest_1" value="correta">67 <br>
+        <input type="radio" name="quest_1" value="errada">97 <br>
+        <input type="radio" name="quest_1" value="errada">82 <br>
+        <input type="radio" name="quest_1" value="errada">112 <br>
         <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
 
-        <h3> 2- (UFSM) Sabe-se que o preço a ser pago por uma corrida de táxi inclui uma parcela fixa, que é denominada bandeirada, e uma parcela variável, que é função da distância percorrida. Se o preço da bandeirada é de R$ 4,60 e o quilômetro rodado é R$ 0,96, a distância percorrida pelo passageiro que pagou R$ 19 para ir de sua casa ao shopping é de:</h3>
-        <input type="radio" name="quest_1" value="errada">a) 5 km <br>
-        <input type="radio" name="quest_1" value="errada">b) 10 km <br>
-        <input type="radio" name="quest_1" value="correta">c)15 km <br>
-        <input type="radio" name="quest_1" value="errada">d)20 km. <br>
-        <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+        <h3>Questão 2 - Marcelo comprou um terreno que possui formato de um retângulo, com dimensões de 27 metros de comprimento e 12 metros de largura. Sua irmã Tatiane comprou um terreno com a mesma área, entretanto, com formato quadrado. A medida do lado do terreno da Tatiane é</h3>
+        <input type="radio" name="quest_2" value="errada">19 metros <br>
+        <input type="radio" name="quest_2" value="errada">15 metros <br>
+        <input type="radio" name="quest_2" value="correta">18 metros <br>
+        <input type="radio" name="quest_2" value="errada">17 metros <br>
+        <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
 
-        <h3> 3- (UCSal) Sejam f e g funções de R em R, sendo R o conjunto dos números reais, dadas por:
-            f(x) = 2x – 3 e f(g(x)) = -4x + 1. Nestas condições, g(-1) é igual a:</h3>
-        <input type="radio" name="quest_1" value="errada">a) -5 <br>
-        <input type="radio" name="quest_1" value="correta">b) 4  <br>
-        <input type="radio" name="quest_1" value="errada">c) 0<br>
-        <input type="radio" name="quest_1" value="errada">d) 5 <br>
-        <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+        <h3>Questão 3 - Durante visita na obra, o engenheiro responsável constatou que havia uma distorção nos ângulos do desenho da garagem. A ideia é que a garagem tenha formato de retângulo, com ângulos de 90°. Entretanto, ele verificou que dois ângulos do quadrilátero que demarcam o desenho mediam 95° e os outros dois mediam 85° cada. Os ângulos de 95° e 85° são classificados respectivamente como:</h3>
+        <input type="radio" name="quest_3" value="errada">agudo e obtuso. <br>
+        <input type="radio" name="quest_3" value="errada">reto e agudo. <br>
+        <input type="radio" name="quest_3" value="errada">agudo e reto. <br>
+        <input type="radio" name="quest_3" value="correta"> obtuso e agudo. <br>
+        <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
 
-        <h3>  (UCSal) O maior valor assumido pela função y = 2 – ½ x – 2½ é:</h3>
-        <input type="radio" name="quest_1" value="correta">a) 2 <br>
-        <input type="radio" name="quest_1" value="errada">b) 1  <br>
-        <input type="radio" name="quest_1" value="correta">c) 3 <br>
-        <input type="radio" name="quest_1" value="errada">d) 4 <br>
-        <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+        <h3>Questão 4</h3>
+        <input type="radio" name="quest_4" value="correta">Resposta 1 <br>
+        <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+        <input type="radio" name="quest_4" value="errada">Resposta 1 <br>
+        <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+
+         <p id="quantos_acertos"></p>
+            <button type="button" onclick="funcao_resposta()">Responder</button>
         
     </form>
    
