@@ -7,12 +7,23 @@
 
 header{
     grid-area: cabe;
-    background-color: blue;
+    background-color: steelblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
 }
 main{
     grid-area: prin;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+h1{
+    color: midnightblue;
+}
+
 footer{
     grid-area: roda;
     background-color: black;
@@ -26,7 +37,7 @@ body{
     display: grid;
     grid-template-areas: 
     "cabe cabe"
-    "brac prin"
+    "prin prin"
     "roda roda";
     grid-template-rows: 200px 500px 200px;
     grid-template-columns: 300px auto;
@@ -39,7 +50,6 @@ header img{
     body{
         grid-template-areas: 
         "cabe"
-        "brac"
         "prin"
         "roda";
         grid-template-columns: 1fr;
@@ -61,11 +71,11 @@ header img{
     section{
         display: flex;
     }
-    aside{
-        display: none;
-    }
+    
     header{
         display: none;
     }
     
 }
+
+
